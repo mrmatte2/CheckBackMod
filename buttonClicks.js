@@ -28,9 +28,9 @@ const XPBoostButtons = [ //Stats of the xpboost buttons
   {name: "Test", xpboost: 0, cooldown: 60, cooldownID: 0, unlock: 0},
   {name: "XPBbutton1", xpboost: 0.01, cooldown: 60, cooldownID: 12, unlock: 13},
   {name: "XPBbutton2", xpboost: 0.02, cooldown: 120, cooldownID: 15, unlock: 15},
-  {name: "XPBbutton3", xpboost: 0.03, cooldown: 300, cooldownID: 19, unlock: 16},
-  {name: "XPBbutton4", xpboost: 0.05, cooldown: 600, cooldownID: 41, unlock: 18},
-  {name: "XPBbutton5", xpboost: 0.1, cooldown: 1200, cooldownID: 42, unlock: 20},
+  {name: "XPBbutton3", xpboost: 0.03, cooldown: 240, cooldownID: 19, unlock: 16},
+  {name: "XPBbutton4", xpboost: 0.05, cooldown: 300, cooldownID: 41, unlock: 18},
+  {name: "XPBbutton5", xpboost: 0.1, cooldown: 600, cooldownID: 42, unlock: 20},
 ]
 
   function click2Button(x) { //Will work for any of them individually
