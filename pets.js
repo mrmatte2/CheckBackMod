@@ -2,14 +2,14 @@ const PetButtons = [ //Pet crates
   {name: "Test", name2: "Test", cooldown: 0, cooldownID: 0, unlock: 0},
   {name: "Filler 1", name2: "Test", cooldown: 7200, cooldownID: 6, unlock: 6},
   {name: "Filler 2", name2: "Test", cooldown: 7200, cooldownID: 6, unlock: 6},
-  {name: "unboxButton1", name2: "Basic", cooldown: 7200, cooldownID: 6, unlock: 6},
-  {name: "unboxButton2", name2: "Advanced", cooldown: 21600, cooldownID: 7, unlock: 7},
-  {name: "unboxButton3", name2: "Epic", cooldown: 64800, cooldownID: 8, unlock: 9},
-  {name: "unboxButton4", name2: "Legendary", cooldown: 172800, cooldownID: 10, unlock: 11},
-  {name: "unboxButton5", name2: "Prestige", cooldown: 3600, cooldownID: 13, unlock: 14},
-  {name: "unboxButton6", name2: "Transcendant", cooldown: 3600, cooldownID: 18, unlock: 19},
-  {name: "unboxButton7", name2: "Universal", cooldown: 43200, cooldownID: 24, unlock: 23},
-  {name: "unboxButton8", name2: "Frozen", cooldown: 604800, cooldownID: 43, unlock: 28},
+  {name: "unboxButton1", name2: "Basic", cooldown: 15, cooldownID: 6, unlock: 6},
+  {name: "unboxButton2", name2: "Advanced", cooldown: 30, cooldownID: 7, unlock: 7},
+  {name: "unboxButton3", name2: "Epic", cooldown: 60, cooldownID: 8, unlock: 9},
+  {name: "unboxButton4", name2: "Legendary", cooldown: 120, cooldownID: 10, unlock: 11},
+  {name: "unboxButton5", name2: "Prestige", cooldown: 300, cooldownID: 13, unlock: 14},
+  {name: "unboxButton6", name2: "Transcendant", cooldown: 600, cooldownID: 18, unlock: 19},
+  {name: "unboxButton7", name2: "Universal", cooldown: 900, cooldownID: 24, unlock: 23},
+  {name: "unboxButton8", name2: "Frozen", cooldown: 1200, cooldownID: 43, unlock: 28},
 ]
 
 const UnboxChancesArray = [0,0,0,basicUnboxChances,advancedUnboxChances,epicUnboxChances,legendaryUnboxChances,prestigeUnboxChances,trascendantUnboxChances,universalUnboxChances]
