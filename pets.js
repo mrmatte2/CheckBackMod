@@ -127,8 +127,7 @@ function unboxPet(x, y) {
   }
   if (x==10 && y < 2) dimensionalReset(2)
   if (petChosen >= 1) {
-    if (game.items[10] == 0) {openCloseMessages(1)}
-      else {
+    if (game.items[10] == 0)
         latestDrops(petChosen, 1)
       }
 
